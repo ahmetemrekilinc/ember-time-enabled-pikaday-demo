@@ -1,25 +1,22 @@
 //BEGIN-SNIPPET showcase
-import Component from '@ember/component';
+import Component from '@glimmer/component';
+import { action } from '@ember/object';
+import { tracked } from '@glimmer/tracking';
 
-export default Component.extend({
+export default class Showcase extends Component {
 
-  init(){
-    this._super(...arguments);
-    this.set('timeValue', new Date());
-    this.set('dateValue', new Date());
-  },
+  @tracked timeValue = new Date();
+  @tracked dateValue = new Date();
+  timeEnabled = true;
 
-  actions: {
-
-    onSelectionDate(dateValue){
-      this.set("dateValue", dateValue);
-    },
-
-    onSelectionTime(timeValue){
-      this.set("timeValue", timeValue);
-    }
-
+  @action
+  onSelectionDate(dateValue){
+    this.dateValue = dateValue;
   }
 
-});
+  @action
+  onSelectionTime(timeValue){
+    this.timeValue = timeValue;
+  }
+}
 //END-SNIPPET
