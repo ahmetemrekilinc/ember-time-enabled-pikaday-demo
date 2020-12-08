@@ -4860,10 +4860,10 @@ ember-test-waiters@^1.1.1:
     ember-cli-babel "^7.11.0"
     semver "^6.3.0"
 
-ember-time-enabled-pikaday@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ember-time-enabled-pikaday/-/ember-time-enabled-pikaday-4.0.0.tgz#b7b7e03a808f0ed261839b95a39b6bf72625c533"
-  integrity sha512-zHm3EW70Nf0vjMmDQ3Z+dpH82mecY1D7+KAa/3gpjqIyBD9ABTth5+xq3F+ZdIqbWRsD4hvNjmw6rnbh7U3IaQ==
+ember-time-enabled-pikaday@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ember-time-enabled-pikaday/-/ember-time-enabled-pikaday-4.0.1.tgz#4372f2dc530f8d2d041cf31cb2d13d9d7614bafb"
+  integrity sha512-lg9cKA3D2ToV8yfloLC5efbCH04hwH7OP7SZ9H+hbQAL8k/GYoLT+Kt7fPG2DUhnp5Bu8WyAj5GN963JNiENJw==
   dependencies:
     ember-cli-babel "7.13.0"
     ember-cli-htmlbars "4.2.0"

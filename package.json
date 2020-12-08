@@ -1,6 +1,6 @@
 {
   "name": "ember-time-enabled-pikaday-demo",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": true,
   "description": "Demo app for ember-time-enabled-pikaday addon",
   "repository": "",
@@ -44,7 +44,7 @@
     "ember-prism": "0.5.0",
     "ember-resolver": "7.0.0",
     "ember-source": "3.15.0",
-    "ember-time-enabled-pikaday": "4.0.0",
+    "ember-time-enabled-pikaday": "4.0.1",
     "ember-truth-helpers": "2.1.0",
     "ember-welcome-page": "4.0.0",
     "eslint-plugin-ember": "7.7.1",
